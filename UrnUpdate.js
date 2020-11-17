@@ -121,7 +121,7 @@ post_trial_gap: 100
     
                  var Instruction_trial7 = {
 	 type: 'html-keyboard-response',
-	 stimulus: centered_message('<p>There will be two blocks of trials. Each block will contain 300 trials. <br><br>Here are examples of what you will see on each trial.<br><br>Press the SPACEBAR to continue. </p>'),
+	 stimulus: centered_message('<p>There will be four blocks of trials. Each block will contain 300 trials. <br><br>Here are examples of what you will see on each trial.<br><br>Press the SPACEBAR to continue. </p>'),
 	 choices: ['spacebar'],
 	 prompt: ''
      }; 
@@ -171,11 +171,11 @@ post_trial_gap: 100
     
     var Instruction_trial18 = {
 	 type: 'html-keyboard-response',
-	 stimulus: centered_message('<p> You will now be given a 2 question quiz to make sure you understand the task. </p>'),
+	 stimulus: centered_message('<p> You will now be given a question quiz to make sure you understand the task. </p>'),
 	 choices: ['spacebar'],
 	 prompt: ''
      }; 
-    
+    /*
     var Instruction_trial19 = {
 	 type: 'image-keyboard-response',
 	 stimulus: 'Images/TutorialQuestion1.png',
@@ -186,7 +186,7 @@ post_trial_gap: 100
      }
 
      };
-    
+    */
         var Instruction_trial20 = {
 	 type: 'image-keyboard-response',
 	 stimulus: 'Images/TutorialQuestion2.png',
@@ -386,7 +386,7 @@ post_trial_gap: 100
       repetitions: 300}
   
   var instruction_block = {
-      timeline: [Instruction_trial1, Instruction_trial2, Instruction_trial5, Instruction_trial6, Instruction_trial7, Instruction_trial9, Instruction_trial10, Instruction_trial14, Instruction_trial15, Instruction_trial16, Instruction_trial17, Instruction_trial18, Instruction_trial19, Instruction_trial20],
+      timeline: [Instruction_trial1, Instruction_trial2, Instruction_trial5, Instruction_trial6, Instruction_trial7, Instruction_trial9, Instruction_trial10, Instruction_trial14, Instruction_trial15, Instruction_trial16, Instruction_trial17, Instruction_trial18, Instruction_trial20],
       repetitions:0}
   
 	 var pavlovia_finish = {
